@@ -1,0 +1,243 @@
+/*
+ * css/styles.css
+ * Simple login form by Vaseto;
+ * email: VasilSlavchev@gmail.com;
+ * date started: 29.07.2014;
+ * Last revision: 07.04.2017;
+*/
+
+/* ********************************************************
+ *  Clearfix.
+********************************************************* */
+.cf:before,.cf:after, .clearfix:before,.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.clear, .cf, .clearfix {
+    clear: both;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ********************************************************
+ *  Custom styles.
+********************************************************* */
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    background: #0ca3d2 url('../images/bg-13.jpg');
+    color: #fff;
+}
+
+h1 {
+    margin: 10px 0;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.header {
+    margin: 10px auto;
+    background: #0ca3d2;
+    border-radius: 20px;
+}
+.header ul {
+    margin: 0;
+    text-decoration:none;
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    padding: 4px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+}
+
+.header ul a:hover {
+    color: red;
+}
+
+.container {
+    padding: 0;
+    margin: 10px auto;
+    display: block;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+.shadow {
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bg {
+    -webkit-box-background-color:rgba(0, 0, 0, 0.5);
+    -moz-background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.5);
+
+    -webkit-box-background-color: rgba(255, 255, 255, 0.5);
+    -moz-background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login {
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.user-logged {
+    color: red;
+    font-weight: bold;
+}
+
+.remember {
+    display: inline-block;
+}
+
+label {
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+}
+
+input {
+    position: relative;
+    bottom: 1px;
+    margin-right: 4px;
+    vertical-align: middle;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+input[type=text], input[type=password] {
+    margin: 5px;
+    padding: 0 10px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+}
+
+input[type=text], input[type=password] {
+    padding: 8px;
+    width: 100%;
+}
+
+.submit {
+    font-style: italic;
+    display: inline-block;
+}
+
+input[type=submit] {
+    padding: 6px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    background: #cde5ef;
+    border: 1px solid;
+    border-color: #b4ccce #b3c0c8 #9eb9c2;
+    border-radius: 16px;
+    outline: 0;
+}
+
+.login-details {
+    float: right;
+    padding: 0 14px 0 0;
+    color: white;
+}
+
+.footer{
+    margin: 10px auto;
+    border-radius: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+.footer ul {
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login-form {
+    max-width: 310px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.messages {
+    border: 1px solid #76EE00;
+}
+
+.message {
+    margin: 4px auto;
+    display: block;
+    border: 1px solid #76EE00;
+}
+
+#messagebox {
+    min-height: 120px;
+    max-width: 300px;
+    width: 100%;
+}
+
+@media screen and (max-width: 380px) {
+    input[type="text"], input[type="password"] {
+        width: 90%;
+    }
+}
+
+.alerts {
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+/* ********************************************************
+ *  End of style.css.
+********************************************************* */
